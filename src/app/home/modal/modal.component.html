@@ -1,0 +1,5 @@
+<ion-content id="container" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <h1 style="color: black;">Transferencia : {{userTransfer}}<ion-icon name="close-circle-outline" slot="end" style="margin-left: 45px; font-size: 30px;" (click)="closeModal()"></ion-icon></h1>
+  <ion-input placeholder="$ Valor" style="border: solid 1px black; border-radius: 2em; margin-top: 5%; text-align: center;" [(ngModel)]="valueTransfer"></ion-input>
+  <ion-button style="width: 50%; border-radius: 8em; margin-top: 6%;" (click)="transfer()">Transferir</ion-button>
+</ion-content>
