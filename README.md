@@ -1,3 +1,5 @@
+[El endpoint estuvo disponible hasta el 23/11/2021 a las 14:45]
+
 # BankNexus
 
 npm i -> Descargar las dependencias antes de iniciar
